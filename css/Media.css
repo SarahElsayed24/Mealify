@@ -1,0 +1,247 @@
+/* NAV--------SECTION */
+@media screen and (max-width: 1200PX) {
+
+.d-flex ul{
+    background-color: white;
+    position: absolute;
+    top:0;
+    right:0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 50px;
+    opacity: 1;
+    /* visibility: hidden; */
+    color: gray;
+
+}
+.d-flex ul li a:hover::before{
+    width: 0;
+}
+.bars i{
+opacity: 1;
+visibility: visible;
+}
+.bars{
+    transition: all 1s;
+}
+.bars:hover+ ul {
+opacity: 1;
+visibility: visible;
+}
+.nav ul{
+transition: all 1s;
+}
+
+
+}
+
+
+
+
+
+/* HOME ...........SECTION */
+@media screen and (max-width: 900px) {
+    .con-home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .image{
+        width: 90%;
+    }
+    .btns{
+        display: flex;
+        flex-direction: column;
+    }
+    .btns .btn-right{
+        width: 100%
+    }
+    .btns .btn-left{
+        width: 40%;
+    }
+
+    }
+
+    @media screen and (min-width: 901px) and (max-width:1200px){
+        
+        .home .container{
+            width: 90%;
+        }
+    } 
+
+
+    /* Chefs--------SECTION */
+
+
+    @media screen and (max-width: 600px) {
+     .chefs .container{
+        width: 100%;
+     }
+        .section{
+        display: flex;
+        flex-direction: column;
+     } 
+     .sec{
+        width: 100%;
+     }  
+     .pic::before{
+        display: none;
+     }
+    }
+    @media screen and (min-width:601px) and (max-width: 768px) {
+        .section{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sec{
+            width: 50%;
+        }
+        .pic::before{
+            display: none;
+         }
+    }
+    /* GALLERY----------SECTION */
+
+    @media only screen and (max-width: 768px) {
+      
+        .Gallery-photos{
+            height: auto;
+        }
+        .Gallery-photos picture{
+            width: 100%;
+        }
+        .Gallery .container{
+            width: 100%;
+        }
+        .pizza{
+            order:0;
+        }
+        .burger{
+            order:1;
+        }
+        .pizza-slices{
+            order:2;
+        }
+        .omlete{
+            order:3;
+        }
+        .steak{
+            order:4;
+        }
+        .fried{
+            order:5;
+        }
+        .kofta{
+            order:6;
+        }
+    }
+    @media screen and (min-width:769px) and (max-width: 992px) {
+        .Gallery-photos{
+            height: 1600px;
+            
+        }
+        .Gallery-photos picture{
+            width: calc(100% / 2);
+        }
+    
+    .pizza{
+        order:0;
+    }
+    .burger{
+        order:1;
+    }
+    .pizza-slices{
+        order:2;
+    }
+    .omlete{
+        order:3;
+    }
+    .steak{
+        order:4;
+    }
+    .fried{
+        order:5;
+    }
+    .kofta{
+        order:6;
+    }
+
+    }
+    /* @media screen and (min-width:993px)  {
+        .Gallery-photos{
+            height: 1000px;
+        }
+        .Gallery-photos picture{
+            width: 50%;
+    } */
+    
+
+
+
+
+    
+/* contact----------section */
+@media screen and (max-width: 600px) {
+    .contact-container{
+        width: 100%;
+    }
+    .details{
+        display: flex;
+        flex-direction: column;
+    }
+    .part{
+        width: 100%;
+    }
+    .data{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .data input{
+        width:100%;
+    }
+}
+/* summary---------page */
+@media screen and (max-width:700px) {
+    .Summary .container{
+        width: 100%;
+        flex-direction: column;
+    }
+    .first , .second , .third
+    {
+        width: 100%;
+    }
+    .second .top button , .second .top input{
+        width: 100%;
+    }
+}
+@media screen and (min-width:701px) and (max-width: 950px) {
+    .summary .container{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;  
+ 
+    }
+    .third{
+        width:48%;
+    }
+    .first{
+        width:48%;
+    }
+    .second{
+        width: 100%;
+        order: 2;
+    
+    }
+
+}
+
+
+
+
+
+
